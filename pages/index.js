@@ -23,11 +23,11 @@ export default function Home() {
         />
         </div>
           <div className="col-span-12  md:col-span-5 md:self-center ">
-            <div className="text-center flex ">
-              <p className="text-lg lg:text-4xl">Websites.  </p> <p className=" text-lg lg:text-4xl mx-3">  Web Apps. </p> <p className="text-lg lg:text-4xl text-purple-700 ">  Web Presence.</p>
+            <div className="text-center flex my-2">
+              <p className=" lg:text-4xl">Websites.  </p> <p className="  lg:text-4xl mx-3">  Web Apps. </p> <p className=" lg:text-4xl text-purple-700 ">  Web Presence.</p>
 
             </div>
-            <div className=" rounded-md shadow-2xl p-5 my-4  bg-white">
+            <div className=" rounded-md shadow-2xl p-5 mb-4  bg-white">
               <h2 className="my-3">Custom software development that maps your ideas and needs onto antifragile solutions.</h2>
             
 

@@ -16,7 +16,7 @@ export default function NavBarTop()  {
           <a className='inline-flex items-center p-2 mr-4 '>
           <Image
                     
-                    src="/../public/m8letters.svg"
+                    src="/m8letters.svg"
                     alt="m8 logo"
                     width={40}
                     height={40}

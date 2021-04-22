@@ -16,7 +16,7 @@ export default function Hoodie() {
             
                 <Image
                     
-                    src="/../public/store.svg"
+                    src="/store.svg"
                     alt="store"
                     width={300}
                     height={300}
@@ -26,7 +26,7 @@ export default function Hoodie() {
 
                 <Image
                     
-                    src="/../public/coding.svg"
+                    src="/coding.svg"
                     alt="m8 logo"
                     width={300}
                     height={300}
@@ -36,7 +36,7 @@ export default function Hoodie() {
 
                 <Image
                     
-                    src="/../public/storeonline.svg"
+                    src="/storeonline.svg"
                     alt="m8 logo"
                     width={300}
                     height={300}

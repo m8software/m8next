@@ -92,7 +92,7 @@ export default function Contact() {
                     <div className="col-span-12 md:col-span-6">
                     <Image
                         
-                        src="/../public/letter.svg"
+                        src="/letter.svg"
                         alt="letter"
                         width={600}
                         height={600}

@@ -14,7 +14,7 @@ export default function Home() {
         <div className="col-span-11  md:col-span-5 md:m-6 self-center ">
           <Image
      
-          src="/../public/m8logo.svg"
+          src="/m8logo.svg"
           alt="m8 logo"
           width={450}
           height={450}

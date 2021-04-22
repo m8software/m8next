@@ -18,7 +18,7 @@ export default function Software() {
             <div className='m-4'>
                 <Image
                             
-                            src="/../public/js.svg"
+                            src="/js.svg"
                             alt="react"
                             width={100}
                             height={100}
@@ -29,7 +29,7 @@ export default function Software() {
 
 <Image
                             
-                            src="/../public/react.svg"
+                            src="/react.svg"
                             alt="javascript"
                             width={100}
                             height={100}
@@ -40,7 +40,7 @@ export default function Software() {
 
 <Image
                             
-                            src="/../public/angular.svg"
+                            src="/angular.svg"
                             alt="angular"
                             width={100}
                             height={100}
@@ -54,7 +54,7 @@ export default function Software() {
             <div className='m-2'>
             <Image
                         
-                        src="/../public/python.svg"
+                        src="/python.svg"
                         alt="letter"
                         width={100}
                         height={100}

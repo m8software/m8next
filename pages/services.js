@@ -19,7 +19,7 @@ export default function Services() {
             <div className="flex flex-row md:block my-2 ">
                 <Image
                     
-                    src="/../public/bullseye1.svg"
+                    src="/bullseye1.svg"
                     alt="m8 logo"
                     width={130}
                     height={100}
@@ -28,7 +28,7 @@ export default function Services() {
                 />
                 <Image
                     
-                    src="/../public/bullseye2.svg"
+                    src="/bullseye2.svg"
                     alt="m8 logo"
                     width={130}
                     height={100}
@@ -38,7 +38,7 @@ export default function Services() {
 
                 <Image
                     
-                    src="/../public/bullseye3.svg"
+                    src="/bullseye3.svg"
                     alt="m8 logo"
                     width={130}
                     height={100}
@@ -61,7 +61,7 @@ export default function Services() {
             <div className="flex flex-row md:block ">
         <Image
                     
-                    src="/../public/store.svg"
+                    src="/store.svg"
                     alt="store"
                     width={250}
                     height={250}
@@ -70,7 +70,7 @@ export default function Services() {
                 />
         <Image
                     
-                    src="/../public/storeonline.svg"
+                    src="/storeonline.svg"
                     alt="m8 logo"
                     width={250}
                     height={250}
@@ -88,7 +88,7 @@ export default function Services() {
         <div className="bg-white rounded-lg col-span-11 m-3 p-5">
         <Image
                     
-                    src="/../public/analysis.svg"
+                    src="/analysis.svg"
                     alt="analysis"
                     width={400}
                     height={400}

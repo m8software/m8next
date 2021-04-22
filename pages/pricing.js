@@ -26,7 +26,7 @@ export default function Pricing() {
         <div className="col-span-12 md:col-span-4 md:self-center md:rounded-sm md:shadow-2xl  p-8 mb-2  bg-white">
         <Image
                     
-                    src="/../public/sapling.svg"
+                    src="/sapling.svg"
                     alt="sapling"
                     width={250}
                     height={250}
@@ -52,7 +52,7 @@ export default function Pricing() {
  <div className="col-span-12 md:col-span-4 md:self-center md:rounded-sm md:shadow-2xl  p-8 mb-2  bg-white">
         <Image
                     
-                    src="/../public/forest.svg"
+                    src="/forest.svg"
                     alt="forest"
                     width={250}
                     height={250}
@@ -77,7 +77,7 @@ export default function Pricing() {
  <div className="col-span-12 md:col-span-4 md:self-center md:rounded-sm md:shadow-2xl  p-8 mb-2  bg-white">
         <Image
                     
-                    src="/../public/jungle.svg"
+                    src="/jungle.svg"
                     alt="jungle"
                     width={250}
                     height={250}

@@ -22,7 +22,7 @@ export default function Contact() {
     const handleSubmit = e => {
         e.preventDefault();
         console.log(name, message, email)
-        fetch(process.env.devUrl + "api/ContactM8/", {
+        fetch(process.env.devUrl + 'api/ContactM8/', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -74,14 +74,16 @@ export default function Contact() {
                 </form>
                 <div className={`${ sent ? '' : 'hidden'
           } bg-white self-center rounded-md shadow-2xl p-4`}>
+              <div className="m-2">
      <h3 className={`${
             sent ? '' : 'hidden'
           }
-          bg-green-400 text-white font-bold py-2 px-4 rounded shadow-md  m-2`}>
+          bg-green-400 text-white font-bold py-2 px-4 rounded shadow-md `}>
                         Thank You!
                     </h3>
 
                     <p>We will get back to you as soon as we can.</p>
+                    </div>
           </div>
 
 

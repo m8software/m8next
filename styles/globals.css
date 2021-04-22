@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  a {
+    /* @apply text-purple-900; */
+  }
+
+  
+}
+
+@tailwind components;
+
+@tailwind utilities;

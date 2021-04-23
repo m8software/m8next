@@ -26,10 +26,8 @@ export default function Contact() {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': 'https://m8sw.com',
-                'Access-Control-Allow-Methods': 'POST',
-                'Access-Control-Allow-Headers': 'Content-Type',
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+     
 
             },
               body: JSON.stringify({

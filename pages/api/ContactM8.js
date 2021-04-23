@@ -6,9 +6,8 @@ const nodemailer = require("nodemailer");
 import Cors from 'cors'
 // Initializing the cors middleware
 const cors = Cors({
-  methods: ['GET', 'POST', 'HEAD'],
+  methods: ['POST', 'HEAD'],
 })
-
 // Helper method to wait for a middleware to execute before continuing
 // And to throw an error when an error happens in a middleware
 function runMiddleware(req, res, fn) {
@@ -25,10 +24,11 @@ function runMiddleware(req, res, fn) {
 
 
 export default async function handler(req, res) {
-  // Run cors
-  await runMiddleware(req, res, cors)
 
-  console.log(req.body)
+  await runMiddleware(req, res, cors);
+
+
+  console.log(req.body);
 
     const { name, email, company, text } = req.body;
 

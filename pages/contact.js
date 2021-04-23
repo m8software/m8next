@@ -22,7 +22,7 @@ export default function Contact() {
     const handleSubmit = e => {
         e.preventDefault();
         console.log(name, message, email)
-        fetch(process.env.devUrl + 'api/ContactM8/', {
+        fetch('http://m8sw.com/api/ContactM8/', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

@@ -1,8 +1,9 @@
 import { Children } from 'react';
 import NavBarTop from './NavBarTop';
 import Head from 'next/head'; 
+import ReactGA from 'react-ga';
 // import React, { useEffect } from 'react';
-// import ReactGA from 'react-ga';
+
 
 
 
@@ -10,15 +11,18 @@ import Head from 'next/head';
 
 function Layout(props) {    
 
-//   ReactGA.initialize('UA-185818197-1');
-//   ReactGA.pageview('/`');
 
-
-
-//   useEffect(() => {
-      
-
-//   }, [])
+    ReactGA.initialize('UA-108419756-6');
+    ReactGA.pageview('/`');
+  
+  
+  
+    useEffect(() => {
+        
+  
+    }, [])
+  
+  
 
 
   return (

@@ -1,10 +1,8 @@
 import { Children } from 'react';
 import NavBarTop from './NavBarTop';
 import Head from 'next/head'; 
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
-// import React, { useEffect } from 'react';
-
-
 
 
   

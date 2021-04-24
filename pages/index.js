@@ -11,7 +11,7 @@ export default function Home() {
     <div className=" bg-blue-200 min-h-screen">
 
       <main className="grid grid-cols-11 min-w-full min-h-full p-5">
-        <div className="col-span-11  md:col-span-5 md:m-6 self-center ">
+        <div className="col-span-11  md:col-span-5 md:m-6 self-center animate-fadeIn ">
           <Image
      
           src="/m8logo.svg"

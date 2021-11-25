@@ -52,7 +52,7 @@ export default function Contact() {
 
   return (
     <Layout>
-            <main className="p-3 bg-purple-200 grid grid-cols-11  min-h-screen">
+            <main className="p-3 bg-purple-200 grid grid-cols-12  min-h-screen">
                 <div className="max-h-full col-span-12 m-2 mb-0  md:col-span-5 md:m-6 ">
                 <form className={`${ !sent ? '' : 'hidden'
           } bg-white self-center rounded-md shadow-2xl p-4`} onSubmit={handleSubmit}>
@@ -98,8 +98,8 @@ export default function Contact() {
                         
                         src="/letter.svg"
                         alt="letter"
-                        width={600}
-                        height={600}
+                        width={400}
+                        height={400}
                         layout="intrinsic"
                         
 

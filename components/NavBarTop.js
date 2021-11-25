@@ -59,12 +59,12 @@ export default function NavBarTop()  {
             </Link>
             <Link href='/pricing'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
-                Pricing
+                Hoodies
               </a>
             </Link>
             <Link href='/services'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-blue-600 hover:text-white'>
-                Web Sites
+                Guides
               </a>
             </Link>
             <Link href='/software'>

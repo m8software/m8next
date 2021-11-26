@@ -28,7 +28,7 @@ export default function Home() {
 
             </div>
             <div className=" rounded-md shadow-2xl p-5 mb-4  bg-white">
-              <h2 className="my-3">Custom software development for interesting ideas and guides to optimize your life.</h2>
+              <h2 className="my-3">Custom software development for interesting ideas.</h2>
             
 
 

@@ -61,11 +61,10 @@ export default async function handler(req, res) {
       })
       .then(data => {
         console.log('Success:', data);
-        setSent(true);
+   
       })
       .catch((error) => {
         console.error('Error:', error);
-        setSent(false);
       });
   
   }

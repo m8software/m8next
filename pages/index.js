@@ -32,8 +32,8 @@ export default function Home() {
               <h2 className="my-3">Custom software development for interesting ideas.</h2>
             
 
-
-            <h3 className="my-3 motion-safe:animate-fadeIn ">.</h3>
+{/* 
+            <h3 className="my-3 motion-safe:animate-fadeIn ">.</h3> */}
             
             {/* <h3 className="my-3 motion-safe:animate-fadeIn ">M8 software offers website and web app creation, as well as contract work.</h3> */}
             <Link  href="/contact"><button className="bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded shadow-md ">Get in touch.</button></Link>

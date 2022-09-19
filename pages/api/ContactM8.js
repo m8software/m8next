@@ -1,6 +1,5 @@
 // require("dotenv").config();
-const nodemailer = require("nodemailer");
-
+const emailjs = require("emailjs");
 
 
 import Cors from 'cors'
@@ -40,34 +39,19 @@ export default async function handler(req, res) {
     //   },
     // });
 
-    const transporter = nodemailer.createTransport( {
-      service: "Yahoo",
-      auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD,
-      },
-    });
+
+
+    var templateParams = {
+      from_name: email,
+      message: text
+  };
+   
+  emailjs.send('service_31x7ikm', 'template_wwt2wbg', templateParams)
+      .then(function(response) {
+         console.log('SUCCESS!', response.status, response.text);
+      }, function(error) {
+         console.log('FAILED...', error);
+      });
   
-    const mailOption = {
-      from: `${process.env.EMAIL}`,
-      to: `sean@m8sw.com`,
-      subject: `New mail from ${email}`,
-      text: `
-      ${name} from ${company} wrote:
-      ${text}
-      `,
-    };
-  
-    transporter.sendMail(mailOption, (err, data) => {
-        if (err) {
-          console.log(err);
-          res.send("error" + JSON.stringify(err));
-        } else {
-          console.log("mail send");
-          res.send("success");
-        }
-    });
-    
- 
   }
   

@@ -45,7 +45,7 @@ export default async function handler(req, res) {
   };
 
 
-      e.preventDefault();
+
       console.log(name, message, email)
       fetch('https://api.emailjs.com/api/v1.0/email/send', {
           method: "POST",

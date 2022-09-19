@@ -13,42 +13,12 @@ export default function Hoodie() {
 
             <div className="text-center">
             <h1 className="m-1">Get The Hoodie</h1>
-            
-                <Image
-                    
-                    src="/store.svg"
-                    alt="store"
-                    width={300}
-                    height={300}
-                    layout="intrinsic"
 
-                />
-
-                <Image
-                    
-                    src="/coding.svg"
-                    alt="m8 logo"
-                    width={300}
-                    height={300}
-                    layout="intrinsic"
-
-                />
-
-                <Image
-                    
-                    src="/storeonline.svg"
-                    alt="m8 logo"
-                    width={300}
-                    height={300}
-                    layout="intrinsic"
-
-                />
-                <hr></hr>
             </div>
         </div>
         <div className="col-span-12 md:col-span-6 md:self-center p-2">
 
-        <h1 className="my-3">Intuitive and Fast websites that showcase your business.</h1>
+        <h1 className="my-3"></h1>
 
 
         <hr></hr>

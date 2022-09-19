@@ -17,7 +17,7 @@ export default function NavBarTop()  {
           <Image
                     
                     src="/m8letters.svg"
-                    alt="m8 logo"
+                    alt="M8"
                     width={40}
                     height={40}
              
@@ -57,16 +57,16 @@ export default function NavBarTop()  {
                 Contact
               </a>
             </Link>
-            <Link href='/pricing'>
+            {/* <Link href='/hoodie'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Hoodies
               </a>
-            </Link>
-            <Link href='/services'>
+            </Link> */}
+            {/* <Link href='/services'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-blue-600 hover:text-white'>
                 Guides
               </a>
-            </Link>
+            </Link> */}
             <Link href='/software'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-gray-600 hover:text-white'>
                 Software

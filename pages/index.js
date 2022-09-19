@@ -12,19 +12,20 @@ export default function Home() {
 
       <main className="grid grid-cols-11 min-w-full min-h-full p-5">
         <div className="col-span-11  md:col-span-5 md:m-6 self-center animate-fadeIn ">
-          <Image
-     
-          src="/m8logo.svg"
+          <object
+          type="image/svg+xml"
+          data="/m8logo.svg"
+          
           alt="m8 logo"
-          width={450}
-          height={450}
+          // width={450}
+          // height={450}
           layout="responsive"
 
-        />
+        ></object>
         </div>
           <div className="col-span-12  md:col-span-5 md:self-center ">
             <div className="text-center flex my-2">
-              <p className=" lg:text-4xl ">Make and say good things.</p>
+           
 
             </div>
             <div className=" rounded-md shadow-2xl p-5 mb-4  bg-white">
@@ -32,7 +33,7 @@ export default function Home() {
             
 
 
-            <h3 className="my-3 motion-safe:animate-fadeIn ">Keyboard for hire.</h3>
+            {/* <h3 className="my-3 motion-safe:animate-fadeIn ">Software.</h3> */}
             
             {/* <h3 className="my-3 motion-safe:animate-fadeIn ">M8 software offers website and web app creation, as well as contract work.</h3> */}
             <Link  href="/contact"><button className="bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded shadow-md ">Get in touch.</button></Link>

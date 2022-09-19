@@ -58,10 +58,8 @@ export default async function handler(req, res) {
             body: JSON.stringify({
               "service_id": "service_31x7ikm", 
               "template_id": "template_wwt2wbg",
-              "from_name": email,
-              "message": message,
-
-        
+              "user_id": "AtMeaI7BgTYWRxNFb",
+              "template_params": templateParams
             })
       })
       .then(data => {

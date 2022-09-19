@@ -22,7 +22,7 @@ export default function Contact() {
     const handleSubmit = e => {
         e.preventDefault();
         console.log(name, message, email)
-        fetch('https://www.m8sw.com/api/ContactM8/', {
+        fetch('https://api.emailjs.com/api/v1.0/email/send', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -31,6 +31,7 @@ export default function Contact() {
 
             },
               body: JSON.stringify({
+                "service_id": "service_31x7ikm", 
                 "name": name,
                 "email": email,
                 "company": company,

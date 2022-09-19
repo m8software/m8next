@@ -25,7 +25,7 @@ export default function Home() {
         </div>
           <div className="col-span-12  md:col-span-5 md:self-center ">
             <div className="text-center flex my-2">
-           
+              <p className=" lg:text-4xl ">Websites done right.</p>
 
             </div>
             <div className=" rounded-md shadow-2xl p-5 mb-4  bg-white">
@@ -33,7 +33,7 @@ export default function Home() {
             
 
 
-            {/* <h3 className="my-3 motion-safe:animate-fadeIn ">Software.</h3> */}
+            <h3 className="my-3 motion-safe:animate-fadeIn ">.</h3>
             
             {/* <h3 className="my-3 motion-safe:animate-fadeIn ">M8 software offers website and web app creation, as well as contract work.</h3> */}
             <Link  href="/contact"><button className="bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded shadow-md ">Get in touch.</button></Link>
